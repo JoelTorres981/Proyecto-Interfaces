@@ -1,0 +1,109 @@
+/*CUERPO*/
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.contact-section {
+    background-image: url('/FRUTASMJJ/images/img3Contactos/im1\(Contactos\).avif');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.section-title {
+    color: #e60000;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000; /* Solid black shadow */
+    position: relative;
+    z-index: 2;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+.location-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.location-title, .attention-title {
+    color: #008000;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.social-media-section {
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+
+    background-image: url('/FRUTASMJJ/images/img3Contactos/im2\(Contactos\).jpg');
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    text-shadow: 1px 1px 2px #fff; /* Solid white shadow */
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: none;
+}
+
+
