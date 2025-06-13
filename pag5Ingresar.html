@@ -9,7 +9,7 @@
     <!-- Segundo archivo CSS -->
     <link rel="stylesheet" href="styles/header_footer.css" />
 </head>
-<body>
+<body style="background-image: url('images/img5Ingresar/im1(Ingresar).jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: fixed;">
      <!-------------------------------------------- ENCABEZADO ---------------------------------------------->
     <header class="encabezado">
       <div class="titulo">
@@ -30,13 +30,30 @@
         </ul>
       <img class="im" src="images/img1Inicio/im14(Inicio).png" alt="" />
     </header>
-    <!-- CUERPO -->
-    <main>
-      <div></div>
-
-
-
-    </main>
+     <!-- CUERPO -->
+     <main>
+         <div class="login">
+             <h2>INICIAR SESION</h2>
+             <select class="usuario">
+                 <option>Usuario</option>
+                 <option>Administrador</option>
+             </select>
+             <label for="correo">Correo</label>
+             <input type="email" id="correo" placeholder="Ingresa tu correo" />
+             <label for="contrasena">Contraseña</label>
+             <input
+                     type="password"
+                     id="contrasena"
+                     placeholder="Ingresa tu contraseña"/>
+             <button class="boton">Acceder</button>
+             <a href="#">¿Olvidaste tu contraseña?</a>
+             <button class="boton2">Crear cuenta</button>
+             <button class="google">
+                 <img src="images/img5Ingresar/im2(Ingresar).png" alt="">
+                 Iniciar sesión con Google
+             </button>
+         </div>
+     </main>
      <!-- PIE DE PAGINA -->
      <footer class="footer">
          <div class="footer-left">
