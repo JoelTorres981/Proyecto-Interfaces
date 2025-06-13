@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     background-color: #f8f8f8;
 }
+
 /* Main content styles */
 main {
     padding: 20px;
@@ -43,10 +44,10 @@ main {
     justify-content: center;
     gap: 40px;
     margin-bottom: 40px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Para organizar la distribucion de elementos en un contenedor */
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 8px; /* Redondear las esquinas de un contenedor */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -54,7 +55,7 @@ main {
 .location-title, .attention-title {
     color: #008000;
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Crear espacio debajo de un elemento */
 }
 
 .social-media-section {
@@ -63,14 +64,14 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin-top: 40px;
-    position: relative;
-    overflow: hidden;
+    position: relative; /* Posiciona el elemento con respecto a su posicion original */
+    overflow: hidden; /* Ocultar contenido que se pase fuera de las dimensiones de un contenedor */
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Definir como se calcula el ancho y alto total de un elemento */
 }
 
 .social-icons {
@@ -80,7 +81,7 @@ main {
     margin-bottom: 30px;
     flex-wrap: wrap;
     position: relative;
-    z-index: 2;
+    z-index: 2; /* Orden en que los elementos se apilan cuando se sobreponen en una pagina web */
     padding: 0;
     max-width: 500px;
     margin-left: auto;
@@ -96,7 +97,4 @@ main {
     color: #333;
     font-weight: bold;
     font-size: 1.1em;
-    text-shadow: none;
 }
-
-
