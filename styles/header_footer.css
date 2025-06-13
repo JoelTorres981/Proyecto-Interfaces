@@ -8,8 +8,8 @@
     gap: 20px;
 }
 /*Titulo FRUTASMJJ*/
-.titulo{
-    font-size: 10px;
+.titulo h1{
+    font-size: 15px;
     font-weight: bold;
     font-style: italic;
 }
